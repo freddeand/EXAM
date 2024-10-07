@@ -11,20 +11,23 @@ header{
 }
 header h1{
     text-align: center;
+    font-size: 40px;
 }
 nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: clamp(30px, 20px, 30px);
     margin: 0;
     padding: 10px; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
-    border-radius: 10px; /* rundade hörn */  
+   
 }
 li{
     list-style: none;
 }
 a{ 
     text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    border-radius: 10px; /* rundade hörn */  
     color: rgb(92, 83, 83);
     width: 100%;
     padding: 10px;
@@ -37,15 +40,66 @@ a:hover{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
     border-radius: 10px; /* rundade hörn */
 }
+.flexbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flexbox1 img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+}
+figure{
+    max-width: 600px;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    
+
+}
+figure figcaption {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    padding: 10px;
+    color: #F7F7F7;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.flexbox1 article h2, p{
+    text-align: center;
+}
+.flexbox1 p{
+    font-size: clamp(1rem, 2.5vw, 3rem);
+}
+
 footer {
     background-color: #F7F7F7;
     color: #333333;
     padding: 10px;
     border: 1px solid black;
     display: flex;
-    bottom: 0; /* Stick to the bottom of the viewport */
-    z-index: 10; /* Ensure it's on top of other content if needed */
+    bottom: 0; /* fastnar på botten */
+    justify-content: center;
   }
-  footer p{
-    text-align: center;
+footer p{
+   color: #333333;
+}
+  @media(max-width:426px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
   }
+

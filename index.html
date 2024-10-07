@@ -10,25 +10,38 @@
 <body>
     <header>
         <h1>Fredde's site.</h1>
-        <nav>
+        <nav aria-label="Navigation">
             <ul>
-                <li><a href="/index.html">Hem</a></li>
-                <li><a href="#">Projekt 1</a></li>
-                <li><a href="#">Projekt 2</a></li>
+                <li><a href="/index.html" aria-label="Gå till första sidan">Hem</a></li>
+                <li><a href="#"aria-label="Gå till sidan om projekt1">Projekt 1</a></li>
+                <li><a href="#"aria-label="Gå till sidan om projekt2">Projekt 2</a></li>
+                <li><a href="#"aria-label="Gå till sidan om projekt3">Projekt 3</a></li>
             </ul>
         </nav>
     </header>
-    <main></main>
-    <section>
+
+    <main>
+    <section class="flexbox1">
         <article>
             <h2>Välkommen in i värmen.</h2>
-            <figure><img src="" alt=""></figure>
-            <figcaption>Husets hjärta</figcaption>
-            <p>Björk! det vita guldet uppe i norrland</p>
+            <figure>
+                <img src="/20241007_201527.jpg" alt="Bild på en kamin">
+                <figcaption>Husets hjärta</figcaption>
+            </figure>
+            
+            <p>Björkved.  </p>
+            
         </article>
     </section>
+    <section class="flexbox2">
+        Energiinnehåll i Björkved
+Kalameter (mätt i torr vikt): Ca 4,1–4,5 kWh/kg (eller 15–16 MJ/kg) beroende på fukthalt och andra faktorer.
+Kubikmeter (mätt i torr volym): Ca 250–300 kWh/m³ för väl torkad björkved.
+    </section>
 
-    <footer><p>info : fredrik.andersson1@chasacademy.se</p></footer>
+    <footer>
+        <p aria-label="Email Fredrik Andersson">fredrik.andersson1@chasacademy.se</p>
+    </footer>
 
 </main>
 </body>
