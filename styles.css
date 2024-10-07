@@ -44,6 +44,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 
 }
 .flexbox1 img{
@@ -81,6 +82,23 @@ figure figcaption {
 .flexbox1 p{
     font-size: clamp(1rem, 2.5vw, 3rem);
 }
+.flexbox2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 40vh;          
+    background-color: #F7F7F7; 
+    flex-direction: column;
+}
+.flexbox2 h3, p{
+    display: flex;
+    justify-content: center; 
+    margin: 10px;
+    width: auto;
+   text-align: center;
+}
+
+
 
 footer {
     background-color: #F7F7F7;
