@@ -101,7 +101,16 @@ main{
 
 
 }
-h1,h2,p{
+h1{
+    font-size: clamp(1rem, 1.5rem, 2.5rem);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+h2{
+    font-size: clamp(1rem, 1.5rem, 2.5rem);
+    line-height: 1.5;
     text-align: center;
     align-items: center;
     justify-content: center;
