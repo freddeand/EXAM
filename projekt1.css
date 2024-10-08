@@ -87,7 +87,7 @@ main{
     display: block; 
      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px; /* rundade hörn */
-    width: clamp(100px, 60%, 100%);
+    width: clamp(300px, 60%, 100%);
     margin-top: 20px;
     margin-bottom: 20px;
 
