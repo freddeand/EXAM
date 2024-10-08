@@ -94,11 +94,14 @@ figure figcaption {
     font-size: 1rem;
     border-radius: 10px;
 }
-.flexbox1 article h2, p{
+.flexbox1 article h2{
     text-align: center;
+    
+    
 }
 .flexbox1 p{
     font-size: clamp(1rem, 2.5vw, 3rem);
+   
 }
 .flexbox2{
     display: flex;
@@ -114,6 +117,7 @@ figure figcaption {
     margin: 10px;
     width: auto;
    text-align: center;
+   width: 50%;
 }
 
 

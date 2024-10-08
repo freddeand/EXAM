@@ -64,11 +64,12 @@ main{
     grid-row: auto;
     margin-top: 20px;
     gap: 10px;
+    margin: 30px;
 
 }
 .bild1{
     display: flex;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px; /* rundade hörn */
     gap: 10px;
 
@@ -84,9 +85,11 @@ main{
     width: 100%; 
     height: auto; 
     display: block; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px; /* rundade hörn */
     width: clamp(100px, 60%, 100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 
 }
@@ -97,7 +100,7 @@ main{
   padding: 10px;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 90%;
 
 
 }
@@ -172,13 +175,16 @@ footer p{
  @media (min-width:769px){
     .bild1, .bild2{
         display: flex;
+        flex-direction: row-reverse;
+        
        
        
     }
     .bild1, .bild2, figure{
         display: flex;
         width: 99%;
-        margin: 10px;
+        margin: 30px;
+        justify-content: center;
        
 
     }
