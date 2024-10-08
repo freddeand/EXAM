@@ -1,5 +1,22 @@
 # EXAM
 Det är dax! 
+projektkrav.
+
+1. Använt semantiska html-element <header>, <nav>, <main>, <section>, <article>, <footer> Gjort en huvudsida och en under sida (projekt1).
+Navbar är likadan på alla sidor med scroll-funktion på mindreskärmar
+2. responsiv design med hjälp av Flexbox, Grid och Clamp. 
+använde clamp() på font-size och även storlek på img.
+3. försökt organisera upp min CSS så den ska vara "lätt" att läsa.
+4. fullt responsiv på olika enheter.
+5. korrekt tilgänglighet med arialabels där det behövs. olika <h1> och <h2> osv.
+bra kontrast färg osv för att öka tillgänglighet.
+6. Använde webläsarverktygen konstant skulle jag säga, testa allt från marginaler, padding till clamp och olika plastser på img. och för att testa responsivitet. Körde även wave och lighthouse.
+7. använder gitbash terminalen i vscode add . och commit pushar till main.
+gjorde först index.html i main. sedan arbetade jag på projekt1 i den branchen. gick bra att pusha allt till main sedan.
+
+git commit -m "Kortfattad teknisk beskrivning" =)
+
+
 För att öppna repo med gitBASH terminal.
 
 1. Gör en mapp på din dator
