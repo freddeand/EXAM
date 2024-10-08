@@ -1,0 +1,147 @@
+body{
+    background-color: #F7F7F7;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.flexbox1337{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+
+}
+.flexbox1337 img{
+    max-height: 100%;
+    max-width: 160px;
+    height: auto;
+    width: auto;
+    display: block;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+.navbar{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+nav ul{
+    display: flex;
+    gap: clamp(15px, 10px, 50px);
+    margin: 10px;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    border-radius: 10px; /* rundade hörn */
+    color: rgb(92, 83, 83);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(146, 144, 144);
+}
+a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    border-radius: 10px; /* rundade hörn */
+}
+footer {
+    background-color: #F7F7F7;
+    color: #333333;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    bottom: 0; /* fastnar på botten */
+    justify-content: center;
+  }
+footer p{
+   color: #333333;
+}
+h1{
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "content0 content0"
+        "content1 content2"
+        "content3 content4";
+    gap: 20px;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.content0 { grid-area: content0; }
+.content1 { grid-area: content1; }
+.content2 { grid-area: content2; }
+.content3 { grid-area: content3; }
+.content4 { grid-area: content4; }
+
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figure figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media(max-width: 426px){
+    .grid-container {
+        grid-template-areas: 
+            "content0"
+            "content1"
+            "content2"
+            "content3"
+            "content4";
+    }
+}
+
+@media (min-width: 769px) {
+    .grid-container {
+        grid-template-areas: 
+            "content0 content0 content0 content0"
+            "content1 content1 content1 content1"
+            "content2 content2 content2 content2"
+            "content3 content3 content4 content4" ;
+    }
+}
