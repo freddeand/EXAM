@@ -32,7 +32,7 @@ header{
 }
 nav ul{
     display: flex;
-    gap: clamp(15px, 10px, 50px);
+    gap: clamp(1rem, 4vw, 2rem);
     margin: 10px;
     padding: 10px;
     margin-right: 20px;
@@ -100,7 +100,7 @@ figure figcaption {
     
 }
 .flexbox1 p{
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: clamp(.5rem, 2.5vw, 3rem);
    
 }
 .flexbox2{
@@ -112,6 +112,7 @@ figure figcaption {
     flex-direction: column;
 }
 .flexbox2 h3, p{
+    font-size: clamp(1rem, 2.5vw, 3rem);
     display: flex;
     justify-content: center; 
     margin: 10px;
