@@ -1,7 +1,8 @@
 # EXAM
 Det är dax! 
 För att öppna repo med gitBASH terminal.
-1.Gör en mapp på din dator
+
+1. Gör en mapp på din dator
 2. öppna upp gitBASH teminal
 3. skriv in vart du vill clona ditt repo i gitbash terminalen. exempel följer -> cd C:\KLON
 4. skriv sedan in i terminalen -> git clone https://github.com/freddeand/EXAM.git
