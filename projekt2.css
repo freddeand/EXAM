@@ -33,7 +33,7 @@ header{
 }
 nav ul{
     display: flex;
-    gap: clamp(15px, 10px, 50px);
+    gap: clamp(1rem, 4vw, 2rem);
     margin: 10px;
     padding: 10px;
     margin-right: 20px;
@@ -63,7 +63,8 @@ footer {
     background-color: #F7F7F7;
     color: #333333;
     padding: 10px;
-    border: 1px solid black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    border-radius: 10px; /* rundade hörn */
     display: flex;
     bottom: 0; /* fastnar på botten */
     justify-content: center;
@@ -86,14 +87,14 @@ h1{
 
 .header {
     grid-area: header;
-    background-color: #e0e0e0;
+    background-color: #F7F7F7;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
 .grid-item {
-    background-color: #f0f0f0;
+    background-color: #F7F7F7;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;

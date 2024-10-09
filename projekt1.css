@@ -32,7 +32,7 @@ header{
 }
 nav ul{
     display: flex;
-    gap: clamp(15px, 10px, 50px);
+    gap: clamp(1rem, 4vw, 2rem);
     margin: 10px;
     padding: 10px;
     margin-right: 20px;
@@ -59,12 +59,13 @@ a:hover{
     border-radius: 10px; /* rundade hörn */
 }
 main{
-    display: grid;
-    grid-template-columns: 2, 1fr;
-    grid-row: auto;
-    margin-top: 20px;
-    gap: 10px;
+     display: grid;
+     grid-template-columns: 2, 1fr;
+     grid-row: auto; 
+     margin-top: 20px; 
+     gap: 10px;
     margin: 30px;
+    
 
 }
 .bild1{
@@ -118,13 +119,16 @@ h2{
     align-items: center;
     justify-content: center;
 }
-
+p{
+    text-align: center;
+}
 
 footer {
     background-color: #F7F7F7;
     color: #333333;
     padding: 10px;
-    border: 1px solid black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    border-radius: 10px; /* rundade hörn */
     display: flex;
     bottom: 0; /* fastnar på botten */
     justify-content: center;
@@ -132,7 +136,7 @@ footer {
 footer p{
    color: #333333;
 }
-
+/*Respons*/
 @media(max-width:426px){
 
     .bild1, .bild2{
@@ -158,7 +162,7 @@ footer p{
         .bild1, .bild2, figure{
             display: flex;
             width: 99%;
-            margin: 10px;
+            margin: 0;
             align-items: center;
             justify-content: center;
     
@@ -183,7 +187,7 @@ footer p{
     .bild1, .bild2, figure{
         display: flex;
         width: 99%;
-        margin: 30px;
+        margin: 0;
         justify-content: center;
        
 

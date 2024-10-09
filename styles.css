@@ -112,7 +112,7 @@ figure figcaption {
     flex-direction: column;
 }
 .flexbox2 h3, p{
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: clamp(1rem, 2.5vw, 20px);
     display: flex;
     justify-content: center; 
     margin: 10px;
@@ -127,7 +127,8 @@ footer {
     background-color: #F7F7F7;
     color: #333333;
     padding: 10px;
-    border: 1px solid black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* skuggor på flexbox */
+    border-radius: 10px; /* rundade hörn */
     display: flex;
     bottom: 0; /* fastnar på botten */
     justify-content: center;
