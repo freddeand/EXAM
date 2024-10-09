@@ -2,7 +2,7 @@
 Det är dax! 
 projektkrav.
 
-1. Använt semantiska html-element <header>, <nav>, <main>, <section>, <article>, <footer> Gjort en huvudsida och en under sida (projekt1).
+1. Använt semantiska html-element <header>, <nav>, <main>, <section>, <article>, <footer> Gjort en huvudsida och en undersida projekt1 även en projekt2.
 Navbar är likadan på alla sidor med scroll-funktion på mindreskärmar
 2. responsiv design med hjälp av Flexbox, Grid och Clamp. 
 använde clamp() på font-size och även storlek på img.
