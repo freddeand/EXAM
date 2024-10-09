@@ -80,7 +80,8 @@ h1{
     grid-template-areas: 
         "content0 content0"
         "content1 content2"
-        "content3 content4";
+        "content3 content4"
+        "content5 .";
     gap: 20px;
     padding: 20px;
 }
@@ -96,7 +97,7 @@ h1{
 .grid-item {
     background-color: #F7F7F7;
     padding: 20px;
-    border: 1px solid #ddd;
+  
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -107,6 +108,7 @@ h1{
 .content2 { grid-area: content2; }
 .content3 { grid-area: content3; }
 .content4 { grid-area: content4; }
+.content5 { grid-area: content5; }
 
 
 figure {
@@ -114,7 +116,7 @@ figure {
 }
 
 figure img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 8px;
 }
@@ -133,7 +135,8 @@ figure figcaption {
             "content1"
             "content2"
             "content3"
-            "content4";
+            "content4"
+            "content5";
     }
 }
 
@@ -141,8 +144,8 @@ figure figcaption {
     .grid-container {
         grid-template-areas: 
             "content0 content0 content0 content0"
-            "content1 content1 content1 content1"
-            "content2 content2 content2 content2"
-            "content3 content3 content4 content4" ;
+            "content1 content1 content2 content2"
+            ". content3 content3 ."
+            "content4 content4 content5 content5" ;
     }
 }
